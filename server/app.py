@@ -1,11 +1,11 @@
 from flask import Flask
 from flask_jwt_extended import JWTManager
-from config import Config
-from models import init_db
-from controllers import auth_bp
-from controllers import episode_bp
-from controllers import guest_bp
-from controllers import appearance_bp
+from server.config import Config
+from server.models import init_db
+from server.controllers.auth_controller import auth_bp
+from server.controllers.episode_controller import episode_bp
+from server.controllers.guest_controller import guest_bp
+from server.controllers.appearance_controller import appearance_bp
 
 
 def create_app():
