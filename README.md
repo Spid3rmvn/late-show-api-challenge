@@ -224,7 +224,7 @@ The API returns appropriate HTTP status codes:
 
 ## GitHub Repository
 
-Repository: https://github.com/<username>/late-show-api-challenge
+Repository: https://github.com/Spid3rmvn/late-show-api-challenge
 
 ## Development Notes
 
