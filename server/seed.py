@@ -1,9 +1,9 @@
-from server1.app import create_app
-from server1.models import db
-from server1.models.user import User
-from server1.models.guest import Guest
-from server1.models.episode import Episode
-from server1.models.appearance import Appearance
+from server.app import create_app
+from server.models import db
+from server.models.user import User
+from server.models.guest import Guest
+from server.models.episode import Episode
+from server.models.appearance import Appearance
 from datetime import date
 
 
